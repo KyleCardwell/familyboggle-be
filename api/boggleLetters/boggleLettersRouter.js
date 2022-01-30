@@ -21,6 +21,7 @@ router.post('/', async (req, res, next) => {
             }
         
             // wordsFound.allWords = result.list
+            wordsFound.lettersList = lettersList
             wordsFound.totalWords = result.list.length
             wordsFound.letters3 = result.lengthOf(3)
             wordsFound.letters4 = result.lengthOf(4)
