@@ -39,7 +39,6 @@ router.post('/', async (req, res, next) => {
         })
 
         res.status(200).json({
-            message: "it's working",
             wordsFound: wordsFound
         })
 
